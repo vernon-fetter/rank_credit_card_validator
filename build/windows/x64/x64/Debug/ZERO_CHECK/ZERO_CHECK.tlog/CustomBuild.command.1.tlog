@@ -1,0 +1,10 @@
+^C:\PERSONAL PROJECTS\RANK\CREDIT_CARD_VALIDATION\CREDIT_CARD_VALIDATION\BUILD\WINDOWS\X64\CMAKEFILES\046B1AF05F9D37B7C20471078602E25B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Personal Projects/Rank/credit_card_validation/credit_card_validation/windows" "-BC:/Personal Projects/Rank/credit_card_validation/credit_card_validation/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Personal Projects/Rank/credit_card_validation/credit_card_validation/build/windows/x64/credit_card_validation.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

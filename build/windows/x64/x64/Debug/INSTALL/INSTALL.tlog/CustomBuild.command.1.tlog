@@ -1,0 +1,10 @@
+^C:\PERSONAL PROJECTS\RANK\CREDIT_CARD_VALIDATION\CREDIT_CARD_VALIDATION\BUILD\WINDOWS\X64\CMAKEFILES\046B1AF05F9D37B7C20471078602E25B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

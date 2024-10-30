@@ -1,0 +1,28 @@
+^C:\PERSONAL PROJECTS\RANK\CREDIT_CARD_VALIDATION\CREDIT_CARD_VALIDATION\BUILD\WINDOWS\X64\CMAKEFILES\AFE067CD1E12673B12F67DD28959FE0C\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Personal Projects\Rank\credit_card_validation\credit_card_validation" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Personal Projects\Rank\credit_card_validation\credit_card_validation\windows\flutter\ephemeral" "PROJECT_DIR=C:\Personal Projects\Rank\credit_card_validation\credit_card_validation" "FLUTTER_TARGET=C:\Personal Projects\Rank\credit_card_validation\credit_card_validation\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Personal Projects\Rank\credit_card_validation\credit_card_validation\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PERSONAL PROJECTS\RANK\CREDIT_CARD_VALIDATION\CREDIT_CARD_VALIDATION\BUILD\WINDOWS\X64\CMAKEFILES\D0878E886EF40045217276AA8447610A\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PERSONAL PROJECTS\RANK\CREDIT_CARD_VALIDATION\CREDIT_CARD_VALIDATION\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Personal Projects/Rank/credit_card_validation/credit_card_validation/windows" "-BC:/Personal Projects/Rank/credit_card_validation/credit_card_validation/build/windows/x64" --check-stamp-file "C:/Personal Projects/Rank/credit_card_validation/credit_card_validation/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
